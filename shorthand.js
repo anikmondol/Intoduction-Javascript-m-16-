@@ -25,12 +25,26 @@ orangePrice *= 3;
 // ---------------------
 
 
-var first = 'Anik';
-var seconde = 'Mondal';
+// var first = 'Anik';
+// var seconde = 'Mondal';
 
-var fullName = first + seconde;
-// console.log(fullName);
+// var fullName = first + seconde;
+// // console.log(fullName);
 
 
-console.log(20 + '2');
-console.log(20 - '2');
+// console.log(20 + '2');
+// console.log(20 - '2');
+
+
+function totalPrice(apples, orange){
+    if(apples != Number || orange != Number){
+        console.log('pleas give me number');
+    }else{
+        let bazar = apples + orange;
+        return money = bazar - 1000;
+    }
+}
+
+const ans = totalPrice(100, 200)
+
+console.log(ans);
